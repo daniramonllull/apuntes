@@ -1,4 +1,4 @@
-# Grupos
+# Grups
 
 - Grupo 1
 - Grupo 2
