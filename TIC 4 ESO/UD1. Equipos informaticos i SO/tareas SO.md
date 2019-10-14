@@ -1,17 +1,25 @@
-- [Tareas a realizar](#tareas-a-realizar)
-  - [SO](#so)
-  - [Recursos y rendimiento](#recursos-y-rendimiento)
-  - [Navegador](#navegador)
-  - [Propiedades de pantalla](#propiedades-de-pantalla)
-  - [Comandos MS-DOS](#comandos-ms-dos)
-  - [Restaurar sistema](#restaurar-sistema)
-  - [Aplicaciones portables](#aplicaciones-portables)
-  - [Atajos de teclado](#atajos-de-teclado)
-  - [Atajos con tecla de windows](#atajos-con-tecla-de-windows)
+- [Ejercicios práctica sistema operativo](#ejercicios-pr%c3%a1ctica-sistema-operativo)
+  - [1. Iniciar sesión](#1-iniciar-sesi%c3%b3n)
+  - [2. Escritorio](#2-escritorio)
+  - [3. Personalizar el escritorio](#3-personalizar-el-escritorio)
+  - [4. Administrador de tareas](#4-administrador-de-tareas)
+  - [5. Trabajo con documentos](#5-trabajo-con-documentos)
+  - [6. Características de un archivo](#6-caracter%c3%adsticas-de-un-archivo)
+  - [7. Deshacer acciones y rehacer](#7-deshacer-acciones-y-rehacer)
+  - [8. Accesos directos](#8-accesos-directos)
+  - [9. Archivos comprimidos](#9-archivos-comprimidos)
+  - [10. Características del SO](#10-caracter%c3%adsticas-del-so)
+  - [11. Navegador](#11-navegador)
+  - [12. Propiedades de pantalla](#12-propiedades-de-pantalla)
+  - [13. Comandos MS-DOS](#13-comandos-ms-dos)
+  - [14. Restaurar sistema](#14-restaurar-sistema)
+  - [15. Aplicaciones portables](#15-aplicaciones-portables)
+  - [16. Atajos de teclado más comunes](#16-atajos-de-teclado-m%c3%a1s-comunes)
+  - [17. Atajos con tecla de windows](#17-atajos-con-tecla-de-windows)
 
-## Ejercicios con SO
+# Ejercicios práctica sistema operativo
 
-## Iniciar sesión
+## 1. Iniciar sesión
 
 Al arrancar un ordenador, automáticamente se ejecuta el sistema operativo instalado en el mismo. Pero para que un usuario pueda comenzar a operar con el sistema, debe iniciar una sesión de trabajo introduciendo un nombre de usuario y una contraseña válidos.
 
@@ -21,7 +29,7 @@ El inicio de sesión de un usuario también puede ser automático si se configur
 
     Iniciar sesión también se conoce como loguearse, logging in o log in
 
-## Escritorio
+## 2. Escritorio
 
 Es el área de trabajo en la pantalla del ordenador que simula un escritorio real. En inglés se denomina **Desktop**.
 
@@ -32,9 +40,9 @@ Elementos principales:
 - Gadgets
 - Barra de tareas
 
-## Personalizar el escritorio
+## 3. Personalizar el escritorio
 
-Cada usuario puede modificar el aspecto de su escritorio para adaptarlo a sus necesidades. 
+Cada usuario puede modificar el aspecto de su escritorio para adaptarlo a sus necesidades.
 
 Por ejemplo, podemos modificar:
 
@@ -46,7 +54,7 @@ Por ejemplo, podemos modificar:
   - Sonidos
   - Protector de pantalla
 
-## Administrador de tareas
+## 4. Administrador de tareas
 
 Permite al usuario gestionar los programas que se están ejecutando (tareas). El uso más extendido es el de poder cerrar programas que se quedan bloqueados.
 
@@ -55,7 +63,7 @@ Podemos acceder con:
 - CTRL + ALT + SUPR
 - CTRL + MAYUS + ESC
 
-# Tareas a realizar
+## 5. Trabajo con documentos
 
 - Crear, copiar, cortar, pegar documentos
 - Renombrar
@@ -67,26 +75,39 @@ Podemos acceder con:
 - Seleccionar
   - Todas las carpetas
   - Algunas carpetas
-- Deshacer acciones y rehacer
+
+## 6. Características de un archivo
+
+Visualizar las propiedades de un archivo
+
+- Tamaño
+- Oculto
+- Solo lectura
+- Permisos
+
+## 7. Deshacer acciones y rehacer
+
+Deshacer una acción: CTRL + Z
+Rehacer una acción: CTRL + Y
+
+## 8. Accesos directos
+
 - Crear accesos directos
-- Archivos comprimidos
-- Características de un archivo
-  - Tamaño
-  - Oculto
-  - Solo lectura
-  - Permisos
+- Borrar accesos directos
+- Comprobar ruta
 
-## SO
+## 9. Archivos comprimidos
 
-- Buscar características del ordenador
+- Crear archivos comprimidos
+- Extraer archivos comprimidos
+- Extraer parte del archivo
+
+## 10. Características del SO
+
+- Buscar características del ordenador (RAM, CPU)
 - Dispositivos y unidades. Características
 - SO de 64 y 32 bit
-
-## Recursos y rendimiento
-
-- Buscar información sobre el ordenador
-- Información de disco
-- Administrador de tareas
+- Información de discos
 - Cambiar entre aplicaciones abiertas
 - Cerrar aplicaciones
 - Formatear discos
@@ -94,7 +115,7 @@ Podemos acceder con:
 - Conexión de internet
 - Idioma de teclado
 
-## Navegador
+## 11. Navegador
 
 - Crear tabs, cerrar tabs, modo incógnito
 - Moverse entre pestañas: CTRL + TAB
@@ -102,14 +123,16 @@ Podemos acceder con:
 - Mostrar escritorio
 - Crear o editar marcadores
 - Limpiar historial
+- Ver código fuente
+- Modo incógnito
 
-## Propiedades de pantalla
+## 12. Propiedades de pantalla
 
 - Cambiar resolución
 - Cambiar formato de pantalla
 - Pantallas divididas
 
-## Comandos MS-DOS
+## 13. Comandos MS-DOS
 
 - Abrir consola de comandos
 - Limpiar consola
@@ -120,22 +143,22 @@ Podemos acceder con:
 - Comprobar configuración de red
 - Moverse por comandos anteriores
 
-## Restaurar sistema
+## 14. Restaurar sistema
 
 - Crear punto de restauración
 - Restaurar a un punto anterior
 
-## Aplicaciones portables
+## 15. Aplicaciones portables
 
 - Permisos de instalación y ejecución
 - Aplicaciones portables
 
-## Atajos de teclado
+## 16. Atajos de teclado más comunes
 
-## Atajos con tecla de windows
+![](img/2019-09-24-08-54-13.png)
+
+## 17. Atajos con tecla de windows
 
 ![](img/2019-09-24-08-53-09.png)
 
 ![](img/2019-09-24-08-53-50.png)
-
-![](img/2019-09-24-08-54-13.png)
