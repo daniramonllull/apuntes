@@ -23,6 +23,10 @@
 
 Al arrancar un ordenador, automáticamente se ejecuta el sistema operativo instalado en el mismo. Pero para que un usuario pueda comenzar a operar con el sistema, debe iniciar una sesión de trabajo introduciendo un nombre de usuario y una contraseña válidos.
 
+Pueden haber varios usuarios al mismo tiempo con sesión iniciada, pero solo uno lo podrá utilizar al mismo tiempo.
+
+        Podemos bloquear la sesión con la tecla windows + L
+
 ![](img/2019-09-16-16-42-33.png)
 
 El inicio de sesión de un usuario también puede ser automático si se configura el sistema para que siempre inicie sesión con un usuario predeterminado.
@@ -60,8 +64,8 @@ Permite al usuario gestionar los programas que se están ejecutando (tareas). El
 
 Podemos acceder con:
 
-- CTRL + ALT + SUPR
-- CTRL + MAYUS + ESC
+        CTRL + ALT + SUPR
+        CTRL + MAYUS + ESC
 
 ## 5. Trabajo con documentos
 
@@ -87,16 +91,31 @@ Visualizar las propiedades de un archivo
 
 ## 7. Deshacer acciones y rehacer
 
-Deshacer una acción: CTRL + Z
-Rehacer una acción: CTRL + Y
+Deshacer una acción: 
+
+        CTRL + Z
+
+Rehacer una acción: 
+
+        CTRL + Y
+
+Estas teclas se pueden pulsar varias veces para deshacer o rehacer varias acciones consecutivas.
 
 ## 8. Accesos directos
 
+Los accesos directos nos permiten acceder a una carpeta o archivo que está en algún lugar del disco de una forma más rápida, como si de un atajo se tratara.
+
 - Crear accesos directos
-- Borrar accesos directos
-- Comprobar ruta
+- Borrar accesos directos. Borrar el acceso directo no borra el destino.
+- Comprobar ruta del acceso directo
 
 ## 9. Archivos comprimidos
+
+Los archivos comprimidos nos permiten guardar varios archivos en uno solo y además conseguir que ocupen menos espacio. Esto hace que sean más rápidos de guardar, copiar y enviar por internet.
+
+Los archivos de texto en concreto disminuyen mucho su tamaño cuando los comprimimos.
+
+También podemos poner una contraseña a nuestro archivo para protegerlo y que otras personas no puedan acceder a él.
 
 - Crear archivos comprimidos
 - Extraer archivos comprimidos
@@ -106,7 +125,7 @@ Rehacer una acción: CTRL + Y
 
 - Buscar características del ordenador (RAM, CPU)
 - Dispositivos y unidades. Características
-- SO de 64 y 32 bit
+- SO de 64 y 32 bit. Diferencias
 - Información de discos
 - Cambiar entre aplicaciones abiertas
 - Cerrar aplicaciones
@@ -117,7 +136,9 @@ Rehacer una acción: CTRL + Y
 
 ## 11. Navegador
 
-- Crear tabs, cerrar tabs, modo incógnito
+Utilizar diversas ventanas suele ser muy incómodo, sobretodo a la hora de movernos por ellas. Para solucionarlo se utilizan las **pestañas** o tabs.
+
+- Crear tabs, cerrar tabs
 - Moverse entre pestañas: CTRL + TAB
 - Pantalla completa
 - Mostrar escritorio
@@ -128,16 +149,25 @@ Rehacer una acción: CTRL + Y
 
 ## 12. Propiedades de pantalla
 
-- Cambiar resolución
-- Cambiar formato de pantalla
-- Pantallas divididas
+- **Resolución:** Algunas veces me puede interesar cambiar la resolución, bien porque la pantalla no es compatible, o el equipo rinde menos a resoluciones altas.
+
+- **Relación de aspecto:** Las pantallas o monitories pueden tener relaciones de aspecto diferentes (formatos), en función de su forma, como 4:3, 16:9, etc. Según cual sea la salida de vídeo que vaya a utilizar, tendré que cambiarlo.
+
+### Pantallas divididas y extendidas
+
+Cuando tengo varias pantallas, o bien una pantalla y un proyector, me puede interesar:
+
+- Que se vea lo mismo en los dos dispositivos
+- Que se vea la mitad en uno y la otra mitad en otro.
 
 ## 13. Comandos MS-DOS
 
 - Abrir consola de comandos
+- Conocer en que lugar del disco nos encontramos (ruta)
 - Limpiar consola
-- Listar contenido
+- Listar contenido (dir y comodines)
 - Crear carpetas y copiar
+- Borrar carpetas vacías y llenas
 - Moverse por carpetas
 - Moverse al inicio
 - Comprobar configuración de red
@@ -145,6 +175,8 @@ Rehacer una acción: CTRL + Y
 
 ## 14. Restaurar sistema
 
+- Formatear un disco vs punto de restauración
+- Qué es un punto de restauración
 - Crear punto de restauración
 - Restaurar a un punto anterior
 
@@ -155,9 +187,18 @@ Rehacer una acción: CTRL + Y
 
 ## 16. Atajos de teclado más comunes
 
+Los atajos más comunes se suelen utilizar combinando teclas con algunas de las siguientes:
+
+- CTRL
+- SUPR
+- MAYUS
+- ESC
+
 ![](img/2019-09-24-08-54-13.png)
 
 ## 17. Atajos con tecla de windows
+
+Para utilizar estos atajos necesitamos un teclado con tecla de Windows y estar trabajando con un sistema operativo de Windows.
 
 ![](img/2019-09-24-08-53-09.png)
 
