@@ -1,25 +1,92 @@
+- [El comercio electrónico](#el-comercio-electr%c3%b3nico)
+- [Modelos de comercio electrónico](#modelos-de-comercio-electr%c3%b3nico)
+  - [Empresa-Empresa (B2B)](#empresa-empresa-b2b)
+  - [Empresa-Consumidor (B2C)](#empresa-consumidor-b2c)
+  - [Empresa-Administración (B2G)](#empresa-administraci%c3%b3n-b2g)
+  - [Consumidor-Consumidor (C2C)](#consumidor-consumidor-c2c)
+  - [Administración-Consumidor (G2C) / Administración-Empresa (G2B)](#administraci%c3%b3n-consumidor-g2c--administraci%c3%b3n-empresa-g2b)
+  - [Compras online seguras](#compras-online-seguras)
+    - [Consultar opiniones.](#consultar-opiniones)
+    - [Ser realistas](#ser-realistas)
+    - [Pago seguro](#pago-seguro)
+  - [Compras online](#compras-online)
+    - [Tarjeta de crédito](#tarjeta-de-cr%c3%a9dito)
+    - [Servicios de pago seguro](#servicios-de-pago-seguro)
+    - [Contrarreembolso](#contrarreembolso)
+    - [Transferencia bancaria](#transferencia-bancaria)
+    - [Pago contactless](#pago-contactless)
+  - [Proceso de compra](#proceso-de-compra)
+- [Formas de pago](#formas-de-pago)
+- [Banca electrónica](#banca-electr%c3%b3nica)
+- [Derechos del consumidor](#derechos-del-consumidor)
+
 # El comercio electrónico
 
 El comercio electrónico o e-commerce (electronic commerce) consisteen la compra y venta de productos o de servicios a través de medios electróni-cos, tales como Internet y otras redes informáticas usando como forma de pagomedios electrónicos, tales como las tarjetas de crédito. El comercio electrónicopermite la compra por Internet, el pago de impuestos y tasas, efectuar transac-ciones comerciales, trámites con las administraciones e incluso la adquisiciónde artículos virtuales (software y derivados en su mayoría), tales como el acceso a contenido "premium" de un sitio web.
 
 # Modelos de comercio electrónico
 
-En el comercio electrónico intervienen varios agentesque determinan el tipo de relaciones o modelos de comercioque se pueden establecer: Administraciones (Goverment),empresas (Business) y consumidores (Consumer). Partien-do de estos agentes, pueden darse múltiples relaciones co-merciales, entre las que podemos destacar:Empresa-Empresa (B2B). Modelo de negocio dirigido yorientado a una relación comercial entre diversas empre-sas, ya sean fabricantes, distribuidores, vendedores oclientes finales (no particulares). Ejemplo: www.iconstru-ye.com.co.Empresa-Consumidor (B2C). El objetivo es la venta di-recta al consumidor o usuario final y representa el mode-lo más conocido de venta electrónica a través de Internet.En el B2C la empresa suministra un catálogo de produc-tos on line (juguetes, viajes, electrónica, moda...) sobreel que el cliente puede realizar pedidos. Como sistema depago se utilizan medios tradicionales, como el contrareembolso o la transferencia, o electrónicos, como la tar-jeta de crédito o el pago por teléfono móvil. Empresa-Administración (B2G). Se establece una relación entre empresas y el gobierno para facilitarprocesos de negociación entre organizaciones públicas como ayuntamientos u otras administraciones conproveedores. Estos últimos tienen la posibilidad de agruparse para ofrecer mejores ofertas. Con esta solu-ción se incrementa la transparencia y se simplifican los procesos.Consumidor-Consumidor (C2C). El consumidor final le adquiere al consumidor primario los productosque él ya no quiere o necesita y a los que les podrá dar una nueva utilidad a precios muy accesibles.Ejemplo: www.eBay.es.Administración-Consumidor (G2C) / Administración-Empresa (G2B). Las Administraciones permitenque los ciudadanos y empresas realicen sus trámites y paguen sus impuestos y tasas en línea a través deun portal web
+En el comercio electrónico intervienen varios agentes que determinan el tipo de relaciones o modelos de comercio que se pueden establecer: Administraciones (Goverment),empresas (Business) y consumidores (Consumer). Partiendo de estos agentes, pueden darse múltiples relaciones comerciales, entre las que podemos destacar:
 
-# Compras online seguras
+## Empresa-Empresa (B2B)
+
+Modelo de negocio dirigido y orientado a una relación comercial entre diversas empre-sas, ya sean fabricantes, distribuidores, vendedores o clientes finales (no particulares). Ejemplo: www.iconstru-ye.com.co.
+
+## Empresa-Consumidor (B2C)
+
+El objetivo es la venta di-recta al consumidor o usuario final y representa el mode-lo más conocido de venta electrónica a través de Internet.En el B2C la empresa suministra un catálogo de produc-tos on line (juguetes, viajes, electrónica, moda...) sobreel que el cliente puede realizar pedidos. Como sistema depago se utilizan medios tradicionales, como el contrareembolso o la transferencia, o electrónicos, como la tar-jeta de crédito o el pago por teléfono móvil. 
+
+## Empresa-Administración (B2G)
+
+Se establece una relación entre empresas y el gobierno para facilitarprocesos de negociación entre organizaciones públicas como ayuntamientos u otras administraciones conproveedores. Estos últimos tienen la posibilidad de agruparse para ofrecer mejores ofertas. Con esta solu-ción se incrementa la transparencia y se simplifican los procesos.
+
+## Consumidor-Consumidor (C2C)
+
+El consumidor final le adquiere al consumidor primario los productosque él ya no quiere o necesita y a los que les podrá dar una nueva utilidad a precios muy accesibles.Ejemplo: www.eBay.es.
+
+## Administración-Consumidor (G2C) / Administración-Empresa (G2B)
+
+Las Administraciones permitenque los ciudadanos y empresas realicen sus trámites y paguen sus impuestos y tasas en línea a través deun portal web
+
+## Compras online seguras
 
 Gracias a Internet, el comercio electrónico ha experimentado un gran crecimiento. Ahora es posiblecomparar productos y precios de los productos, leer opiniones de otros usuarios, beneficiarse de ofertas ex-clusivas en compras online y realizar estas compras en cualquier momento y lugar. Sin embargo, hay usua-rios que son reticentes a la hora de realizar pagos por Internet, probablemente por desconocimiento de losmedios de pago disponibles y de las medidas de seguridad que se deben adoptar en este tipo de operaciones.Es recomendable tener en cuenta los siguientes factores a la hora de realizar una compra online:Conexión segura. La conexión establecida con la tienda virtual se debe realizarutilizando un protocolo seguro. Esto se puede comprobar en la barra de direccio-nes del navegador observando que la URL comienza por https y, además, apareceun candado.Tiendas conocidas. Es recomendable acudir a tiendas online conocidas y, a ser posible, que tengan tiendafísica también en el país. Muchas de ellas ofrecen, además, servicios de chat, correo electrónico o aten-ción telefónica para las consultas de los usuarios.
 
-- Consultar opiniones. Se pueden buscar opiniones de otros usuarios sobre los productos, las tiendas onli-ne, formas de resolver posibles problemas surgidos... Muchas de estas tiendas (eBay, Amazon...) tienensus propios foros y opiniones sobre los productos suministrados.
-- Ser realistas. Hay que ser conscientes que determinados regalos, gangas, chollos u ofertas exageradaspueden estar escondiendo una estafa.
+### Consultar opiniones. 
+ 
+Se pueden buscar opiniones de otros usuarios sobre los productos, las tiendas online, formas de resolver posibles problemas surgidos... Muchas de estas tiendas (eBay, Amazon...) tienen sus propios foros y opiniones sobre los productos suministrados.
 
-- Pago seguro. Muchos usuarios desconfían de suministrar sus datos bancarios (cuentascorrientes, tarjetas de crédito...) a tiendas online. Por ello han surgido diversas entida-des como PayPal que sirven de intermediarios entre el comprador y el vendedor, au-mentando la confidencialidad de estas operaciones pues evitan que los vendedores ac-cedan a estos datos
+### Ser realistas
 
-# Compras online
+Hay que ser conscientes que determinados regalos, gangas, chollos u ofertas exageradas pueden estar escondiendo una estafa.
 
-Tarjeta de crédito. Son las más utilizadas por su comodidad y rapidez en el proceso, pero también lasque más ataques sufren. Para evitar que se filtren los datos de tu tarjeta (nombre del titular, número dela tarjeta, fecha de validez y código de validez CVV), muchos establecimientos utilizan TPV virtualescon autenticación, de modo que la entidad que emite la tarjeta pueda verificar que es auténtico y prote-ger los datos del cliente.Servicios de pago seguro. Son muchos los consumidores que son reacios a proporcionar determinadosdatos a la hora de comprar online, y por ello surgieron plataformas con las que vincular el pago a unatarjeta de débito o crédito o a una cuenta bancaria, de modo que solo se tenga que introducir la clavede la cuenta de usuario de la misma plataforma. Algunas opciones son Paypall, Google Wallet, Ama-zon Payments, Apple Pay o iupay.Contrarreembolso. El pago se efectúa cuando el producto llega a manos del comprador por lo que seasegura su recepción. Se debe pagar antes de comprobar el contenido. En ocasiones conlleva gastosadicionales.Transferencia bancaria. Se notifica al comprador el número de cuenta bancaria donde se debe reali-zar el ingreso para tramitar el pedido. Suele tardar varios días en hacerse efectivo por lo que la comprasufre una demora.Pago   contactless.   Es   unsistema de pago inalámbri-co utilizando la tecnologíaNFC que nos permite reali-zar pagos con solo aproxi-mar el medio de pago (tar-jeta, móvil, smartwatch...)al terminal de pago (datá-fono) compatible con estatecnología.   Así   podemosutilizar,   como   forma   depago, nuestro móvil juntocon alguna de las aplicacio-nes   de   cartera   virtual(Google Wallet, Apple Pay,Samsung   Pay,   VodafoneWallet, BBVA Wallet, La-Caixa Walletun...)
+### Pago seguro
 
-# Proceso de compra
+Muchos usuarios desconfían de suministrar sus datos bancarios (cuentas corrientes, tarjetas de crédito...) a tiendas online. Por ello han surgido diversas entida-des como PayPal que sirven de intermediarios entre el comprador y el vendedor, au-mentando la confidencialidad de estas operaciones pues evitan que los vendedores ac-cedan a estos datos
+
+## Compras online
+
+### Tarjeta de crédito
+
+on las más utilizadas por su comodidad y rapidez en el proceso, pero también lasque más ataques sufren. Para evitar que se filtren los datos de tu tarjeta (nombre del titular, número dela tarjeta, fecha de validez y código de validez CVV), muchos establecimientos utilizan TPV virtualescon autenticación, de modo que la entidad que emite la tarjeta pueda verificar que es auténtico y prote-ger los datos del cliente.
+
+### Servicios de pago seguro
+
+Son muchos los consumidores que son reacios a proporcionar determinadosdatos a la hora de comprar online, y por ello surgieron plataformas con las que vincular el pago a unatarjeta de débito o crédito o a una cuenta bancaria, de modo que solo se tenga que introducir la clavede la cuenta de usuario de la misma plataforma. Algunas opciones son Paypall, Google Wallet, Ama-zon Payments, Apple Pay o iupay.
+
+### Contrarreembolso
+
+El pago se efectúa cuando el producto llega a manos del comprador por lo que seasegura su recepción. Se debe pagar antes de comprobar el contenido. En ocasiones conlleva gastosadicionales.
+
+### Transferencia bancaria
+
+Se notifica al comprador el número de cuenta bancaria donde se debe reali-zar el ingreso para tramitar el pedido. Suele tardar varios días en hacerse efectivo por lo que la comprasufre una demora.
+
+### Pago contactless
+
+Es un sistema de pago inalámbrico utilizando la tecnologíaNFC que nos permite reali-zar pagos con solo aproxi-mar el medio de pago (tar-jeta, móvil, smartwatch...)al terminal de pago (datá-fono) compatible con estatecnología.   Así   podemosutilizar,   como   forma   depago, nuestro móvil juntocon alguna de las aplicacio-nes   de   cartera   virtual(Google Wallet, Apple Pay,Samsung   Pay,   VodafoneWallet, BBVA Wallet, La-Caixa Walletun...)
+
+## Proceso de compra
 
 Accedemos a la tienda virtual. Si realizamoscompras con frecuencia en ella es convenientecrear una cuenta e iniciar sesión. Así podemos in-dicar algunos datos (nombre, direcciones, formasde pago, teléfono, email...) sin necesidad de com-pletar estos datos cada vez que hagamos un pedi-do.Añadimos los productos a la cesta los elemen-tos que deseamos adquirir indicando cantidad, ta-lla, color o cualquier otro dato que sea necesario.En cualquier momento podemos acceder a esta cesta para consultar, modificar o eliminar productos deella. Al finalizar la selección de artículos, indicamos que deseamos gestionar la compra.Indicamos los datos que nos soliciten o los seleccionamos si ya los tenemos registrados en nuestra cuen-ta (destinatario, dirección de envío, teléfono de contacto...). En algunos casos se pueden introducir valeso promociones para realizar descuentos sobre el importe del pedido.Seleccionamos la forma de pago. Este paso es el que más incertidumbre provoca en los compradores.Existen varias opciones que pueden estar disponibles según el sitio
 
