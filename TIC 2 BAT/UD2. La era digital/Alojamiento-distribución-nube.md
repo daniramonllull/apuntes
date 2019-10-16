@@ -10,14 +10,14 @@ Por otro lado, estos archivos están repartidos en múltiples servidores físico
 
 # Ventajas
 
--Acceso desde cualquier lugar y ordenador.
--Gratuito en muchos casos hasta una capacidad límite que depende de la plataforma usada.
--Puede ser útil para hacer copias de seguridad.
+- Acceso desde cualquier lugar y ordenador.
+- Gratuito en muchos casos hasta una capacidad límite que depende de la plataforma usada.
+- Puede ser útil para hacer copias de seguridad.
 
 # Inconvenientes
 
--La seguridad y la privacidad.
--Requiere de acceso a internet.
+- La seguridad y la privacidad.
+- Requiere de acceso a internet.
 
 # Plataformas en la nube para intercambio de archivos
 
