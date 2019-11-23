@@ -52,14 +52,18 @@
   - [8.3. Proteger la privacidad en la red con un proxy](#83-proteger-la-privacidad-en-la-red-con-un-proxy)
   - [8.4. Navegación anónima](#84-navegaci%c3%b3n-an%c3%b3nima)
 - [9. Privacidad de la información](#9-privacidad-de-la-informaci%c3%b3n)
+  - [9.1. Amenazas a la privacidad](#91-amenazas-a-la-privacidad)
+  - [9.2. Antiespías](#92-antiesp%c3%adas)
+  - [9.3. Borrar archivos de forma segura](#93-borrar-archivos-de-forma-segura)
 - [10. Protección de las conexiones de red](#10-protecci%c3%b3n-de-las-conexiones-de-red)
+  - [10.1. Cortafuegos](#101-cortafuegos)
+  - [10.2. Redes privadas virtuales](#102-redes-privadas-virtuales)
+  - [10.3. Certificados de servidor web y HTTPS](#103-certificados-de-servidor-web-y-https)
 - [11. Seguridad en comunicaciones inalámbricas](#11-seguridad-en-comunicaciones-inal%c3%a1mbricas)
 
 # 1. La seguridad de la información
 
 La **seguridad informática** es el conjunto de acciones, herramientas y dispositivos cuyo objetivo es dotar a un sistema informático (conjunto de hardware, software, personas y procedimientos) de integridad, confidencialidad y disponibilidad
-
-
 
 ## 1.1. Principios de la seguridad informática
 
@@ -75,7 +79,7 @@ La seguridad informática pretende **proteger recursos** valiosos de una organiz
 
 - La información
 - El hardware
-- El software 
+- El software
   
 Para ello se establecen **planes de seguridad** que garantizan los tres principios establecidos con anterioridad. Estos nos ayudan a identificar **vulnerabilidades** e implementar planes de contingencia adecuados.
 
@@ -83,10 +87,10 @@ Para ello se establecen **planes de seguridad** que garantizan los tres principi
 
 ## 1.3. Contra qué nos tenemos que proteger
 
-- Contra nosotros mismos: Borramos archivos sin darnos cuenta, eliminamos programas necesarios para la seguridad o aceptamos correos electrónicos perjudiciales para el sistema.
-- Contra los accidentes y averías: Pueden hacer que se estropee nuestro ordenador y perdamos datos necesarios.
-- Contra usuarios intrusos: Bien desde el mismo ordenador, bien desde otro equipo de la red, puedan acceder a datos de nuestro equipo.
-- Contra software malicioso o malware: Programas que aprovechan un acceso a nuestro ordenador para instalarse y obtener información, dañar el sistema o incluso llegar a inutilizarlo por completo
+- **nosotros mismos**: Borramos archivos sin darnos cuenta, eliminamos programas necesarios para la seguridad o aceptamos correos electrónicos perjudiciales para el sistema.
+- **accidentes y averías**: Pueden hacer que se estropee nuestro ordenador y perdamos datos necesarios.
+- **usuarios intrusos**: Bien desde el mismo ordenador, bien desde otro equipo de la red, puedan acceder a datos de nuestro equipo.
+- **software malicioso o malware**: Programas que aprovechan un acceso a nuestro ordenador para instalarse y obtener información, dañar el sistema o incluso llegar a inutilizarlo por completo
 
 # 2. Amenazas
 
@@ -108,9 +112,9 @@ Para ello se establecen **planes de seguridad** que garantizan los tres principi
 
 ### Amenazas Físicas 
 
-Fallos en los dispositivos 
-Accidentes
-Catástrofes Naturales .
+- Fallos en los dispositivos
+- Accidentes
+- Catástrofes Naturales
 
 ## 2.2. Conductas de seguridad
 
@@ -120,9 +124,9 @@ Su fin es evitar daños a los sistemas informáticos:
 
 Estrategias:
 
-- Empleo de contraseñas adecuadas y seguras (elegir una contraseña segura, comprobar la seguridad de una contraseña)
-- Encriptación de los datos (codificar la información con una contraseña, cualquier persona que la intercepte no pueda ver el mensaje original)
-- El uso de software de seguridad informática
+- Empleo de **contraseñas** adecuadas y seguras (elegir una contraseña segura, comprobar la seguridad de una contraseña)
+- **Encriptación** de los datos (codificar la información con una contraseña, cualquier persona que la intercepte no pueda ver el mensaje original)
+- El uso de **software de seguridad** informática
 - Control de Acceso
 - Firmas y Certificados Digitales
 - Protocolos Seguros
@@ -141,13 +145,15 @@ Estrategias:
 
 # 3. Malware
 
-Características
-Programa malicioso, potencialmente peligroso
-Capacidad de hacer daño a un equipo
-Posibilidad de propagación
-Ciberataques combinan habitualmente varios tipos 
+Se trata de un programa malicioso, potencialmente peligroso. Tiene la capacidad de hacer daño a un equipo y posibilidad de propagación
+
+Los **ciberataques** combinan habitualmente varios tipos.
 
 ## 3.1. Tipos de malware más conocidos
+
+Enlace: los 8 virus más famosos de todos los tiempos.
+
+https://uk.norton.com/norton-blog/2016/02/the_8_most_famousco.html
 
 ### Virus
 
@@ -184,12 +190,19 @@ Programa que se instala en el ordenador sin conocimiento del usuario con la fina
 
 ## Adware
 
+Software que se esconde en los anuncios de Internet. Tras acceder los equipos y dispositivos, este malware roba la información de las empresas y usuarios.
+
 ## Ransomware
+
+El **ransomware** es un tipo de malware que toma a sus archivos como rehenes.
+
+Lanzado en septiembre de 2013, **CryptoLocker** se extendió a través de archivos adjuntos de correo electrónico y cifró los archivos del usuario para que no pudieran acceder a ellos.
+
+Luego, los piratas informáticos envian supuestamente una clave de descifrado a cambio de una suma de dinero.
 
 ## Rogue
 
 ## Rootkit
-
 
 # 3.2. Otras amenazas malware
 
@@ -211,13 +224,16 @@ mediante el envío de correos electrónicos.
 
 ## Spam
 
-Envío de correo electrónico publicitario 
-De forma masiva
-A cualquier dirección de correo electrónico existente. 
-Finalidad 
-vender sus productos
+Envío de correo electrónico publicitario de forma masiva a cualquier dirección de correo electrónico existente. Su finalidad en general suele ser la de 
+vender productos.
 
 ## Hoax
+
+Mensajes de correo distribuidos en cadena, cuyo objetivo es realizar engaños masivos. Por ejemplo:
+
+- Historias solidarias inventadas
+- Mensajes que traen mala suerte
+- Alertas falsas sobre virus
 
 # 4. Ataques a los sistemas informáticos
 
@@ -243,7 +259,7 @@ Se utiliza para conseguir información, privilegios o acceso a sistemas engañan
 
 ## 4.3. Ataques remotos
 
-Tipos:
+Se trata de un conjunto de técnicas utilizadas para intentar acceder a un sistema informático a distancia. Se suele utilizar software malicioso que aprovecha vulnerabilidades de seguridad de programas o del sistema operativo.
 
 - **Inyección de Código:** Añade o borra información en sitios remotos
 - **Escaneo de Puertos**: Averigua los puertos abiertos para atacar.
@@ -251,7 +267,7 @@ Tipos:
 Escuchas de Red: Captura e interpreta el tráfico de una red.
 - **Spoofing**: Suplanta la identidad del usuario.
 - **Fuerza Bruta:** Probar todas las combinaciones posibles de claves de un sistema.
-- **Elevación de Privilegios:** El atacante se hace root o administrador para controlar más. 
+- **Elevación de Privilegios:** El atacante se hace root o administrador para controlar más.
 
 # 5. Protección contra malware
 
@@ -263,12 +279,12 @@ Un antivirus es un software que tiene como finalidad prevenir,detectar y elimina
 
 Los antivirus se encuentran en constante actualización, debido a la aparición de nuevos virus. Los antivirus, además, suelen incorporar otras funciones como: 
 
-- antispam
-- cortafuegos
-- cifrado de datos
-- monitor de red
+- Antispam
+- Cortafuegos
+- Cifrado de datos
+- Monitor de red
 
-Existe una gran variedad de antivirus, entre los más destacados están: 
+Existe una gran variedad de antivirus, entre los más destacados están:
 
 - Avast
 - Avira
@@ -277,25 +293,18 @@ Existe una gran variedad de antivirus, entre los más destacados están:
 
 ## 5.3. Síntomas de una infección
 
--El sistema va mas lento.
+Algunos síntomas de infección habituales de que un equipo puede estar infectado por algún tipo de malware:
 
--Desaparece información privada.
-
--Te sale publicidad indeseada.
-
--El ratón o las ventanas se mueve sin que tu hagas nada.
-
--Mal funcionamiento de algunas aplicaciones.
-
--Conexiones a Internet no intencionadas.
-
--Cambio del buscador predeterminado.
-
--Barras nuevas en el navegador sin tu consentimiento.
-
--Envío de mensajes sin tu mandarlos.
-
--Aumento de la actividad de tu equipo.
+- El sistema va mas lento.
+- Desaparece información privada.
+- Te sale publicidad indeseada.
+- El ratón o las ventanas se mueve sin que tu hagas nada.
+- Mal funcionamiento de algunas aplicaciones.
+- Conexiones a Internet no intencionadas.
+- Cambio del buscador predeterminado.
+- Barras nuevas en el navegador sin tu consentimiento.
+- Envío de mensajes sin tu mandarlos.
+- Aumento de la actividad de tu equipo.
 
 ## 5.4. Pasos que debe darse en caso de infección
 
@@ -338,11 +347,40 @@ Existe una gran variedad de antivirus, entre los más destacados están:
 
 # 9. Privacidad de la información
 
-Amenazas a la privacidad. Antiespías. Borrar archivos de forma segura
+## 9.1. Amenazas a la privacidad
+
+## 9.2. Antiespías
+
+## 9.3. Borrar archivos de forma segura
+
+Los archivos borrados, incluso después de ser borrados, pueden ser recuperados mediante software adecuado.
+
+Existen programas para ello, así como para asegurar que los archivos se eliminan de forma segura e irrecuperable.
 
 # 10. Protección de las conexiones de red
 
-Cortafuegos, redes privadas virtuales. Certificados de servidor web y HTTPS
+## 10.1. Cortafuegos
+
+Es un hardware o software que controla la información entrante y saliente del equipo, actuando como defensa en caso de amenaza.fr
+
+Este se encarga de examinarla y comprueban que superen los criterios de seguridad. estos criterios pueden establecerse en función de las preferencias de cada uno.
+
+Se utiliza en los dispositivos con internet y suelen incluirse con los antivirus, aunque algunos sistemas operativos como Windows ya llevan instalado el suyo propio.
+
+## 10.2. Redes privadas virtuales
+
+Consiste en conectarse a Internet a través de una red privada, estableciendo una conexión cifrada y así evita que el buscador guarde tus datos.
+
+- VPN de acceso remoto: acceso a una red privada con una red pública. Ejemplos son conexiones desde lugares públicos como hoteles o cafeterías.
+- VPN de sitio a sitio: conectar redes a través de internet, pudiendo comunicarse entre ellas.
+
+## 10.3. Certificados de servidor web y HTTPS
+
+SSL es un protocolo criptográfico en el que se otorgan certificados a las páginas para garantizar la integridad y confidencialidad de las comunicaciones de esta.
+
+Cuando TSL y SSL se combinan, forman el protocolo de navegación HTTPS. Este es indicador de que se trata de un lugar seguro, en el que se asegura como un sito de comercio electrónico seguro.
+
+En los navegadores aparece como un candado verde, y si además el nombre de la web están en verde es que se trata de una versión extendida de este protocolo.
 
 # 11. Seguridad en comunicaciones inalámbricas
 
