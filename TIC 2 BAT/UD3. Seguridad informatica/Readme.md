@@ -19,11 +19,9 @@
     - [Spyware](#spyware)
   - [Adware](#adware)
   - [Ransomware](#ransomware)
-  - [Rogue](#rogue)
-  - [Rootkit](#rootkit)
 - [3.2. Otras amenazas malware](#32-otras-amenazas-malware)
-  - [Pharming](#pharming)
   - [Phishing](#phishing)
+  - [Pharming](#pharming)
   - [Spam](#spam)
   - [Hoax](#hoax)
 - [4. Ataques a los sistemas informáticos](#4-ataques-a-los-sistemas-inform%c3%a1ticos)
@@ -63,7 +61,7 @@
 
 # 1. La seguridad de la información
 
-La **seguridad informática** es el conjunto de acciones, herramientas y dispositivos cuyo objetivo es dotar a un sistema informático (conjunto de hardware, software, personas y procedimientos) de integridad, confidencialidad y disponibilidad
+La **seguridad informática** es el conjunto de acciones, herramientas y dispositivos cuyo objetivo es dotar a un sistema informático (conjunto de hardware, software, personas y procedimientos) de integridad, confidencialidad y disponibilidad.
 
 ## 1.1. Principios de la seguridad informática
 
@@ -75,11 +73,16 @@ La **seguridad informática** es el conjunto de acciones, herramientas y disposi
 
 ## 1.2. ¿Qué queremos proteger?
 
-La seguridad informática pretende **proteger recursos** valiosos de una organización. Los 3 pilares fundamentales a proteger son:
+La seguridad informática pretende **proteger recursos** valiosos de una organización. En un sistema informático lo que queremos proteger son sus activos, es decir, los recursos que forman parte del sistema y que podemos agrupar en:
 
-- La información
-- El hardware
-- El software
+- **Hardware**: elementos físicos del sistema informático, tales como procesadores, electrónica y cableado de red, medios de almacenamiento (cabinas, discos, cintas, DVDs,...).
+- **Software**: elementos ló́gicos o programas que se ejecutan sobre el hardware, tanto si es el propio sistema operativo como las aplicaciones.
+- **Datos**: comprenden la información lógica que procesa el software haciendo uso del hardware. En general serán informaciones estructuradas en bases de datos o paquetes de información que viajan por la red.
+- **Otros**: fungibles, personas, infraestructuras,.. aquellos que se 'usan y gastan' como puede ser la tinta y papel en las impresoras, los soportes tipo DVD o incluso cintas si las copias se hacen en ese medio, etc.
+
+De ellos los mas críticos son los datos, el hardware y el software. Es decir, los datos que están almacenados en el hardware y que son procesados por las aplicaciones software.
+
+Incluso de todos ellos, el activo mas crítico son los **datos**. El resto se puede reponer con facilidad y los datos ... sabemos que dependen de que la empresa tenga una buena política de copias de seguridad y sea capaz de reponerlos en el estado mas próximo al momento en que se produjo la pérdida. Esto puede suponer para la empresa, por ejemplo, la dificultad o imposibilidad de reponer dichos datos con lo que conllevaría de pérdida de tiempo y dinero.
   
 Para ello se establecen **planes de seguridad** que garantizan los tres principios establecidos con anterioridad. Estos nos ayudan a identificar **vulnerabilidades** e implementar planes de contingencia adecuados.
 
@@ -108,9 +111,9 @@ Para ello se establecen **planes de seguridad** que garantizan los tres principi
 ### Amenazas Lógicas
 
 - Software Malicioso
-- Vulnerabilidades del Software 
+- Vulnerabilidades del software
 
-### Amenazas Físicas 
+### Amenazas Físicas
 
 - Fallos en los dispositivos
 - Accidentes
@@ -120,9 +123,9 @@ Para ello se establecen **planes de seguridad** que garantizan los tres principi
 
 ### Técnicas de seguridad activa
 
-Su fin es evitar daños a los sistemas informáticos:
+El fin de las medidas de seguridad activa es evitar daños a los sistemas informáticos.
 
-Estrategias:
+Para ello podemos utilizar diferentes estrategias:
 
 - Empleo de **contraseñas** adecuadas y seguras (elegir una contraseña segura, comprobar la seguridad de una contraseña)
 - **Encriptación** de los datos (codificar la información con una contraseña, cualquier persona que la intercepte no pueda ver el mensaje original)
@@ -130,6 +133,12 @@ Estrategias:
 - Control de Acceso
 - Firmas y Certificados Digitales
 - Protocolos Seguros
+
+Enlaces:
+
+- [Comprobar si nuestros datos han sido comprometidos](https://haveibeenpwned.com/
+)
+- https://howsecureismypassword.net/
 
 ### Técnicas o prácticas de seguridad pasiva
 
@@ -145,7 +154,7 @@ Estrategias:
 
 # 3. Malware
 
-Se trata de un programa malicioso, potencialmente peligroso. Tiene la capacidad de hacer daño a un equipo y posibilidad de propagación
+Se trata de un programa malicioso, potencialmente peligroso. Tiene la capacidad de hacer daño a un equipo y posibilidad de propagación.
 
 Los **ciberataques** combinan habitualmente varios tipos.
 
@@ -200,27 +209,24 @@ Lanzado en septiembre de 2013, **CryptoLocker** se extendió a través de archiv
 
 Luego, los piratas informáticos envian supuestamente una clave de descifrado a cambio de una suma de dinero.
 
-## Rogue
-
-## Rootkit
-
 # 3.2. Otras amenazas malware
+
+## Phishing
+
+Es un tipo de fraude ejecutado a través de un **correo electrónico** en el que se solicita la actualización de los datos personales (usualmente vinculados a cuentas u otros instrumentos financieros). 
+
+Aparece un **enlace** para que se haga clic de acceso a una página falsa que tendrá prácticamente la **misma apariencia** de la página de la institución simulada.
 
 ## Pharming
 
-Suplantación de páginas web por parte de un servidor instalado en el equipo 
-sin que el usuario lo sepa.
+Se instala un código malicioso introducido premeditadamente que permite **redireccionar** un nombre de dominio a otra máquina diferente.
+
+Si el usuario ha sido redireccionado, cuando introduzca el nombre de dominio ingresará a una página ‘web’ falsa (en apariencia similar a la que deseaba ingresar) permitiéndole al estafador obtener todos los datos personales del cliente.
 
 Finalidad:
 
 - Obtener datos bancarios
 - Cometer delitos económicos
-
-## Phishing
-
-Obtener información confidencial 
-de los usuarios de banca electrónica 
-mediante el envío de correos electrónicos.
 
 ## Spam
 
@@ -246,6 +252,8 @@ Mensajes de correo distribuidos en cadena, cuyo objetivo es realizar engaños ma
   - Suplantación de identidad
   - Suplantación de una dirección web
   - Suplantación de una dirección IP
+
+![](img/2019-11-24-09-33-02.png)
 
 ## 4.2. Ingeniería social
 
@@ -319,9 +327,31 @@ Algunos síntomas de infección habituales de que un equipo puede estar infectad
 
 ## 6.2. Criptografía
 
+La criptografía (del griego 'escritura oculta') es la ciencia de cifrar y descifrar información con técnicas especiales, usado frecuentemente en mensajes que solo puedan ser leídos por las personas a las que van dirigidos.
+
+Al hablar de este área se debería hablar de criptologia que a su vez engloba:
+
+- Las técnicas de cifrado (**criptografía**)
+- Sus técnicas complementarias donde se incluye el **criptoanalisis** (técnica que estudia los métodos para romper textos cifrados con objeto de recuperar la información original en ausencia de claves).
+
 ### Criptografía simétrica
 
+La criptografía simétrica usa la misma clave para cifrar y descifrar mensajes. 
+
+Dado que toda la seguridad recae en la clave, esta debe ser muy difícil de adivinar, para ello se usa la longitud y el conjunto de caracteres que use.
+
+![](img/2019-11-24-09-29-32.png)
+
 ### Criptografía asimétrica
+
+Cada usuario del sistema criptográfico ha de poseer una pareja de claves:
+
+- Clave privada: sera custodiada por su propietario y no se dará a conocer a ningún otro.
+- Clave publica: sera conocida por todos los usuarios.
+
+Esta pareja de claves es complementaria: lo que cifra una solo lo puede descifrar la otra y viceversa.
+
+![](img/2019-11-24-09-29-58.png)
 
 ### Criptografía de clave pública
 
