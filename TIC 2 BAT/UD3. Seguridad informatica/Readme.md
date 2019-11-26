@@ -3,6 +3,7 @@
   - [1.1. Principios de la seguridad informática](#11-principios-de-la-seguridad-inform%c3%a1tica)
   - [1.2. ¿Qué queremos proteger?](#12-%c2%bfqu%c3%a9-queremos-proteger)
   - [1.3. Contra qué nos tenemos que proteger](#13-contra-qu%c3%a9-nos-tenemos-que-proteger)
+  - [1.4. La importancia de los datos](#14-la-importancia-de-los-datos)
 - [2. Amenazas](#2-amenazas)
   - [2.1. Tipos de amenazas](#21-tipos-de-amenazas)
     - [Amenazas Humanas](#amenazas-humanas)
@@ -65,9 +66,27 @@ La **seguridad informática** es el conjunto de acciones, herramientas y disposi
 
 ## 1.1. Principios de la seguridad informática
 
-- **Integridad:** Un sistema informático es íntegro cuando impide la modificación de la información a cualquier usuario que no haya sido autorizado con anterioridad.
-- **Confidencialidad:** Un sistema informático es confidencial cuando impide la visualización de datos a los usuarios que no tengan privilegios en el sistema.
-- **Disponibilidad:** Un sistema informático es disponible cuando está en todo momento en funcionamiento y accesible para que los usuarios autorizados puedan hacer un uso adecuado de ellos.
+**Integridad:** Un sistema informático es íntegro cuando impide la modificación de la información a cualquier usuario que no haya sido autorizado con anterioridad.
+
+Ejemplos:
+
+- Alteración malintencionada de archivos
+- Modificación de informes de ventas (empleados)
+
+**Confidencialidad:** Un sistema informático es confidencial cuando impide la visualización de datos a los usuarios que no tengan privilegios en el sistema.
+
+Ejemplos:
+
+- Robo de información confidencial por parte de un atacante a través de internet
+- Divulgación no autorizada a través de las redes sociales de información confidencial
+- Acceso por parte de un empleado a información crítica de la compañía ubicada en carpetas sin permisos asignados, a la que no debería tener acceso
+
+**Disponibilidad:** Un sistema informático es disponible cuando está en todo momento en funcionamiento y accesible para que los usuarios autorizados puedan hacer un uso adecuado de ellos.
+
+Ejemplos:
+
+- Imposibilidad de acceder al correo electrónico corporativo
+- Ataque de denegación de servicio, en el que el sistema «cae»impidiendo accesos legítimos.
 
 ![](img/2019-11-23-18-02-19.png)
 
@@ -83,7 +102,7 @@ La seguridad informática pretende **proteger recursos** valiosos de una organiz
 De ellos los mas críticos son los datos, el hardware y el software. Es decir, los datos que están almacenados en el hardware y que son procesados por las aplicaciones software.
 
 Incluso de todos ellos, el activo mas crítico son los **datos**. El resto se puede reponer con facilidad y los datos ... sabemos que dependen de que la empresa tenga una buena política de copias de seguridad y sea capaz de reponerlos en el estado mas próximo al momento en que se produjo la pérdida. Esto puede suponer para la empresa, por ejemplo, la dificultad o imposibilidad de reponer dichos datos con lo que conllevaría de pérdida de tiempo y dinero.
-  
+ 
 Para ello se establecen **planes de seguridad** que garantizan los tres principios establecidos con anterioridad. Estos nos ayudan a identificar **vulnerabilidades** e implementar planes de contingencia adecuados.
 
 ![](img/2019-11-23-18-02-55.png)
@@ -95,6 +114,46 @@ Para ello se establecen **planes de seguridad** que garantizan los tres principi
 - **usuarios intrusos**: Bien desde el mismo ordenador, bien desde otro equipo de la red, puedan acceder a datos de nuestro equipo.
 - **software malicioso o malware**: Programas que aprovechan un acceso a nuestro ordenador para instalarse y obtener información, dañar el sistema o incluso llegar a inutilizarlo por completo
 
+## 1.4. La importancia de los datos
+
+La importancia de la información que manejamos será, en gran medida,relativa a nuestro sector de negocio.
+
+**Ámbito sanitario**
+
+Gran volumen de información personal de pacientes, a la que se deben aplicar todas las medidas de seguridad para evitar que se pierda, modifique o se accedaa ella sin autorización.
+
+Suele ser necesario llevar un registro de los accesos y modificaciones.
+
+**Sector financiero**
+
+Se maneja información confidencial tanto de clientes como de operaciones financieras de compras y ventas de activos cuya difusión puede suponer una importante pérdida económica o un perjuicio para nuestros clientes.
+
+**Sectores industriales o de desarrollo de productos**
+
+Confidencialidad de los procesos y procedimientos que nos pueden aportar una mejora de productividad sobre la competencia.
+
+**Hostelería y restauración**
+
+Se maneja, además de un volumen de datos de carácter personal muy significativo, información sobre reservas, cuya pérdida nos podría poner en una situación muy complicada con nuestros clientes.
+
+**Legislación de datos**
+
+La legislación sobre protección de datos de carácter personal, define datos personales como toda información sobre una persona física identificada o identificable.
+
+Una **persona es identificable** si puede determinarse su identidad, directa o indirectamente.
+
+Esta legislación exige la protección de la seguridad de los datos de carácter personal ante posibles riesgos que afecten a la privacidad de las personas por ejemplo: acceso no autorizado, uso ilegítimo, modificación no autorizada, discriminación por perfilado o pérdida de datos. 
+
+**Datos sensibles**
+
+Existen categorías especiales de datos, los denominados **datos sensibles** que exigen una protección reforzada y que están sujetos a un régimen jurídico especial.
+
+Estos datos son:
+
+- Datos personales que revelan ideología, afiliación sindical, opiniones políticas, creencias religiosas y otras creencias.
+- Datos personales que revelan el origen racial o étnico y los relativos a la salud o la vida sexual y orientación sexual, datos genéticos y biométricos.
+- Datos de condenas penales o administrativas
+
 # 2. Amenazas
 
 ## 2.1. Tipos de amenazas
@@ -102,11 +161,11 @@ Para ello se establecen **planes de seguridad** que garantizan los tres principi
 ### Amenazas Humanas
 
 - Ataques Pasivos
-  - Usuarios con conocimientos básicos
-  - Hackers
+ - Usuarios con conocimientos básicos
+ - Hackers
 - Ataques Activos
-  - Antiguos empleados de una Organización
-  - Crackers y otros Atacantes
+ - Antiguos empleados de una Organización
+ - Crackers y otros Atacantes
 
 ### Amenazas Lógicas
 
@@ -168,7 +227,7 @@ https://uk.norton.com/norton-blog/2016/02/the_8_most_famousco.html
 
 Programa que se instala en el ordenador sin el conocimiento del usuario 
 Finalidad de propagarse a otros equipos.
-Puede provocar  desde pequeñas bromas hasta la destrucción total de discos duros.
+Puede provocar desde pequeñas bromas hasta la destrucción total de discos duros.
 
 ![](img/2019-11-23-18-04-26.png)
 
@@ -249,9 +308,9 @@ Mensajes de correo distribuidos en cadena, cuyo objetivo es realizar engaños ma
 - **Interceptación**: Acceder a recursos para los que no tiene autorización.
 - **Modificación**: Acceder a los recursos y manipularlos. 
 - **Suplantación o fabricación**: Inserta objetos falsificados. Pueden ser:
-  - Suplantación de identidad
-  - Suplantación de una dirección web
-  - Suplantación de una dirección IP
+ - Suplantación de identidad
+ - Suplantación de una dirección web
+ - Suplantación de una dirección IP
 
 ![](img/2019-11-24-09-33-02.png)
 
@@ -319,7 +378,7 @@ Algunos síntomas de infección habituales de que un equipo puede estar infectad
 - Restaurar e sistema a un estado anterior: De esta manera no se pierde información, pero si se elimina el virus.
 - Actualizar la base de datos del antivirus y realizar un análisis del sistema.
 - Arrancar el sistema con un LiveCD o Live USB: permite analizar el equipo con un sistema que no está contaminado y recuperar información.
-- Ejecutar utilidades de desinfección  específicas, que eliminas amenazas concretas: esto sirve cuando ya ha sido detectada la amenaza.
+- Ejecutar utilidades de desinfección específicas, que eliminas amenazas concretas: esto sirve cuando ya ha sido detectada la amenaza.
 
 # 6. Cifrado de la información
 
