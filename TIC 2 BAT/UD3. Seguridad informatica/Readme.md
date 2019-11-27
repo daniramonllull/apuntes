@@ -38,13 +38,14 @@
   - [6.1. Orígenes](#61-or%c3%adgenes)
   - [6.2. Criptografía](#62-criptograf%c3%ada)
     - [Criptografía simétrica](#criptograf%c3%ada-sim%c3%a9trica)
-    - [Criptografía asimétrica](#criptograf%c3%ada-asim%c3%a9trica)
-    - [Criptografía de clave pública](#criptograf%c3%ada-de-clave-p%c3%bablica)
+    - [Criptografía asimétrica o de clave pública](#criptograf%c3%ada-asim%c3%a9trica-o-de-clave-p%c3%bablica)
 - [7. Firma electrónica y certificado digital](#7-firma-electr%c3%b3nica-y-certificado-digital)
   - [7.1 Firma electrónica](#71-firma-electr%c3%b3nica)
-    - [Firma de documentos electrónicos.](#firma-de-documentos-electr%c3%b3nicos)
+    - [Firma de documentos electrónicos](#firma-de-documentos-electr%c3%b3nicos)
   - [7.2. certificado digital](#72-certificado-digital)
     - [Autoridades de certificación](#autoridades-de-certificaci%c3%b3n)
+    - [Tipos de certificados](#tipos-de-certificados)
+    - [¿Cómo conseguir un certificado digital?](#%c2%bfc%c3%b3mo-conseguir-un-certificado-digital)
 - [8. Navegación segura](#8-navegaci%c3%b3n-segura)
   - [8.1. Buenas prácticas](#81-buenas-pr%c3%a1cticas)
   - [8.2. Navegación privada](#82-navegaci%c3%b3n-privada)
@@ -406,12 +407,15 @@ Algunos síntomas de infección habituales de que un equipo puede estar infectad
 
 ## 6.2. Criptografía
 
-La criptografía (del griego 'escritura oculta') es la ciencia de cifrar y descifrar información con técnicas especiales, usado frecuentemente en mensajes que solo puedan ser leídos por las personas a las que van dirigidos.
+La **criptografía** (del griego 'escritura oculta') es la ciencia de cifrar y descifrar información con técnicas especiales, usado frecuentemente en mensajes que solo puedan ser leídos por las personas a las que van dirigidos.
 
 Al hablar de este área se debería hablar de criptologia que a su vez engloba:
 
 - Las técnicas de cifrado (**criptografía**)
 - Sus técnicas complementarias donde se incluye el **criptoanalisis** (técnica que estudia los métodos para romper textos cifrados con objeto de recuperar la información original en ausencia de claves).
+
+- [Práctica tipos de cifrado](https://cryptii.com/pipes/caesar-cipher)
+- [Máquinas enigma](https://www.google.com/search?client=firefox-b-d&biw=1920&bih=966&tbm=isch&sxsrf=ACYBGNT0fxRWa0DxAk1SNttpEINHJAJBmw%3A1574852405799&sa=1&ei=NVfeXcC3MIKAjLsP5cOH-AI&q=maquina+enigma+m3&oq=maquina+enigma+m3&gs_l=img.3..0i24.4590.5417..5548...0.0..0.82.386.5......0....1..gws-wiz-img.......35i39j0j0i67.S_eCof4Qw-g&ved=0ahUKEwiApuKxnormAhUCAGMBHeXhAS8Q4dUDCAY&uact=5#imgrc=7MSWvJylpjBB7M:) 
 
 ### Criptografía simétrica
 
@@ -421,28 +425,80 @@ Dado que toda la seguridad recae en la clave, esta debe ser muy difícil de adiv
 
 ![](img/2019-11-24-09-29-32.png)
 
-### Criptografía asimétrica
+Ejercicio: [encriptacion AES](https://aesencryption.net/)
+
+### Criptografía asimétrica o de clave pública
 
 Cada usuario del sistema criptográfico ha de poseer una pareja de claves:
 
-- Clave privada: sera custodiada por su propietario y no se dará a conocer a ningún otro.
-- Clave publica: sera conocida por todos los usuarios.
+- **Clave privada**: sera custodiada por su propietario y no se dará a conocer a ningún otro.
+- **Clave publica**: sera conocida por todos los usuarios.
 
 Esta pareja de claves es complementaria: lo que cifra una solo lo puede descifrar la otra y viceversa.
 
 ![](img/2019-11-24-09-29-58.png)
 
-### Criptografía de clave pública
+Práctica: https://www.devglan.com/online-tools/rsa-encryption-decryption
 
 # 7. Firma electrónica y certificado digital
 
 ## 7.1 Firma electrónica
 
-### Firma de documentos electrónicos.
+Una **firma electrónica** es un conjunto de datos electrónicos que:
+
+- Acompañan o que están asociados a un documento electrónico
+- Identifican al firmante de manera inequívoca
+- Certifican la integridad del documento
+- Aseguran que el firmante no puede repudiar lo firmado.
+
+**Sellado en el tiempo**
+
+Una de las características más útiles que puede ir asociada a la firma electrónica es lo que se conoce como **"sellado en el tiempo"**. Se trata de un método para probar que un conjunto de datos (en este caso, la firma que se ha realizado) existió en un momento determinado (fecha y hora). El sellado de tiempo es aportado por un tercero de confianza conocido como Autoridad de Sellado de Tiempo.
+
+Si vas a trabajar con documentos de firma electrónica, es muy importante comprobar que los datos firmados se corresponden con los originales y que el certificado, con el que se firma, es válido. Para comprobar la validez de los certificados y firmas, así como validarlas y visualizarlas, deberás utilizar los servicios suministrados por VALIDe. 
+
+### Firma de documentos electrónicos
+
+Si contamos con un **certificado digital**, podemos comenzar a firmar documentos. La firma electrónica en documentos se puede realizar de dos formas:
+
+- Online, a través de un servicio de verificación y generación de firmas electrónicas como es VALIDe
+- A través de aplicaciones de firma electrónica o de ofimática que, tras ser descargadas y ejecutadas en un ordenador, permitirán realizar firmas de documentación sin la necesidad de estar conectado a Internet.
+
+![](2019-11-27-11-57-06.png)
 
 ## 7.2. certificado digital
 
+Para poder realizar firma electrónica, previamente, será necesario contar con un **certificado digital** como los de la FNMT (Fábrica Nacional de Moneda y Timbre o el del DNI electrónico, que autentica, —mediante una pareja de claves en un fichero software o en tarjeta— la identidad (como persona física o jurídica) del firmante. 
+
 ### Autoridades de certificación
+
+Estos certificados, son emitidos por una entidad emisora de certificados que dan fe de que el portador del certificado es quien dice ser. Existen varias autoridades de certificación: 
+
+- FNMT
+- Agencia de Tecnología y Certificación Electrónica de la Generalitat Valenciana
+- Agència Catalana de Certificació
+- Dirección General de la Policía (para el DNI), etc
+
+Si disponemos de un certificado y quieres comprobar su validez, firmar, visualizar o validar una firma puedes utilizar los servicios del portal de firma electrónica.
+
+### Tipos de certificados
+
+Las entidades certificadoras expiden distintos tipos de certificados, dependiendo de si el solicitante es:
+
+- Un ciudadano
+- Un representante de una empresa (persona jurídica, de entidad sin personalidad jurídica y, para administradores únicos y solidarios)
+- Un empleado público.
+
+### ¿Cómo conseguir un certificado digital?
+
+En caso de no contar con un certificado electrónico, el primer paso será **solicitarlo**. Los pasos que hay que seguir para realizar dicha solicitud son los siguientes:
+
+1. Realizar una solicitud online. Al final de este proceso se obtiene un código que será necesario para poder acreditar tu identidad.
+2. Presentarse en una Oficina de Registro para acreditar tu identidad.
+   - Para el DNI tendrás que personarte en las oficinas de la D. G. de la Policía
+   - Si solicitas un certificado de representante de una empresa, además debes acreditar la existencia de la entidad, que tienes el poder de representación y su vigencia. 
+   - La Agencia Tributaria actúa como Oficina de Registro de los certificados emitidos por la FNMT. También hay Oficinas de Registro en la Comisión Nacional del Mercado de Valores o en la Comunidad Foral de Navarra. Puedes buscar la Oficina de Registro para acreditar tu identidad en el mapa de la FNMT-RCM.
+3. Descargar el Certificado. Para ello, habrá sido necesario realizar el registro presencial y estar en posesión del código obtenido en el primer paso que permitirá descargar el certificado vía Internet.
 
 # 8. Navegación segura
 
