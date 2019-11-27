@@ -7,7 +7,7 @@
 - [2. Amenazas](#2-amenazas)
   - [2.1. Tipos de amenazas](#21-tipos-de-amenazas)
     - [Amenazas Humanas](#amenazas-humanas)
-    - [Amenazas Lógicas](#amenazas-l%c3%b3gicas)
+    - [Amenazas lógicas](#amenazas-l%c3%b3gicas)
     - [Amenazas Físicas](#amenazas-f%c3%adsicas)
   - [2.2. Conductas de seguridad](#22-conductas-de-seguridad)
     - [Técnicas de seguridad activa](#t%c3%a9cnicas-de-seguridad-activa)
@@ -18,8 +18,8 @@
     - [Gusano](#gusano)
     - [Troyano](#troyano)
     - [Spyware](#spyware)
-  - [Adware](#adware)
-  - [Ransomware](#ransomware)
+    - [Adware](#adware)
+    - [Ransomware](#ransomware)
 - [3.2. Otras amenazas malware](#32-otras-amenazas-malware)
   - [Phishing](#phishing)
   - [Pharming](#pharming)
@@ -59,6 +59,8 @@
   - [10.2. Redes privadas virtuales](#102-redes-privadas-virtuales)
   - [10.3. Certificados de servidor web y HTTPS](#103-certificados-de-servidor-web-y-https)
 - [11. Seguridad en comunicaciones inalámbricas](#11-seguridad-en-comunicaciones-inal%c3%a1mbricas)
+  - [11.1 Seguridad en Bluetooth](#111-seguridad-en-bluetooth)
+  - [11.2 Seguridad en redes wifi](#112-seguridad-en-redes-wifi)
 
 # 1. La seguridad de la información
 
@@ -102,7 +104,7 @@ La seguridad informática pretende **proteger recursos** valiosos de una organiz
 De ellos los mas críticos son los datos, el hardware y el software. Es decir, los datos que están almacenados en el hardware y que son procesados por las aplicaciones software.
 
 Incluso de todos ellos, el activo mas crítico son los **datos**. El resto se puede reponer con facilidad y los datos ... sabemos que dependen de que la empresa tenga una buena política de copias de seguridad y sea capaz de reponerlos en el estado mas próximo al momento en que se produjo la pérdida. Esto puede suponer para la empresa, por ejemplo, la dificultad o imposibilidad de reponer dichos datos con lo que conllevaría de pérdida de tiempo y dinero.
- 
+
 Para ello se establecen **planes de seguridad** que garantizan los tres principios establecidos con anterioridad. Estos nos ayudan a identificar **vulnerabilidades** e implementar planes de contingencia adecuados.
 
 ![](img/2019-11-23-18-02-55.png)
@@ -120,7 +122,7 @@ La importancia de la información que manejamos será, en gran medida,relativa a
 
 **Ámbito sanitario**
 
-Gran volumen de información personal de pacientes, a la que se deben aplicar todas las medidas de seguridad para evitar que se pierda, modifique o se accedaa ella sin autorización.
+Gran volumen de información personal de pacientes, a la que se deben aplicar todas las medidas de seguridad para evitar que se pierda, modifique o se acceda a ella sin autorización.
 
 Suele ser necesario llevar un registro de los accesos y modificaciones.
 
@@ -142,32 +144,35 @@ La legislación sobre protección de datos de carácter personal, define datos p
 
 Una **persona es identificable** si puede determinarse su identidad, directa o indirectamente.
 
-Esta legislación exige la protección de la seguridad de los datos de carácter personal ante posibles riesgos que afecten a la privacidad de las personas por ejemplo: acceso no autorizado, uso ilegítimo, modificación no autorizada, discriminación por perfilado o pérdida de datos. 
+Esta legislación exige la protección de la seguridad de los datos de carácter personal ante posibles riesgos que afecten a la privacidad de las personas por ejemplo: acceso no autorizado, uso ilegítimo, modificación no autorizada, discriminación por perfilado o pérdida de datos.
 
 **Datos sensibles**
 
 Existen categorías especiales de datos, los denominados **datos sensibles** que exigen una protección reforzada y que están sujetos a un régimen jurídico especial.
 
-Estos datos son:
+Estos datos son datos personales que revelan:
 
-- Datos personales que revelan ideología, afiliación sindical, opiniones políticas, creencias religiosas y otras creencias.
-- Datos personales que revelan el origen racial o étnico y los relativos a la salud o la vida sexual y orientación sexual, datos genéticos y biométricos.
+- Ideología, afiliación sindical, opiniones políticas
+- Creencias religiosas y otras creencias.
+- Origen racial o étnico
+- Relativos a la salud o la vida sexual y orientación sexual, datos genéticos y biométricos.
 - Datos de condenas penales o administrativas
 
 # 2. Amenazas
 
 ## 2.1. Tipos de amenazas
 
+Existen 3 tipos de amenazas según su origen:
+
 ### Amenazas Humanas
 
-- Ataques Pasivos
- - Usuarios con conocimientos básicos
- - Hackers
-- Ataques Activos
- - Antiguos empleados de una Organización
- - Crackers y otros Atacantes
+Tipos de amenazas humanas más habituales:
 
-### Amenazas Lógicas
+- Usuarios con conocimientos básicos
+- Hackers
+- Antiguos empleados de una Organización
+
+### Amenazas lógicas
 
 - Software Malicioso
 - Vulnerabilidades del software
@@ -190,8 +195,8 @@ Para ello podemos utilizar diferentes estrategias:
 - **Encriptación** de los datos (codificar la información con una contraseña, cualquier persona que la intercepte no pueda ver el mensaje original)
 - El uso de **software de seguridad** informática
 - Control de Acceso
-- Firmas y Certificados Digitales
-- Protocolos Seguros
+- Firmas y certificados digitales
+- Utilizar protocolos seguros como HTTPS
 
 Enlaces:
 
@@ -210,6 +215,8 @@ Estrategias:
 - Herramientas de Limpieza
 - Sistemas de Alimentación Ininterrumpida (SAI)
 - Sistemas Redundantes
+
+![](img/2019-11-27-08-35-38.png)
 
 # 3. Malware
 
@@ -233,16 +240,13 @@ Puede provocar desde pequeñas bromas hasta la destrucción total de discos duro
 
 ### Gusano
 
-Tipo de virus
-Finalidad 
-Multiplicarse e infectar una red de ordenadores. 
-Consecuencias
-No suelen implicar la destrucción de archivos 
-pero sí ralentizan el funcionamiento.
+Tipo de virus cuya finalidad es la de multiplicarse e infectar una red de ordenadores.
+
+Las consecuencias no suelen implicar la destrucción de archivos pero sí ralentizan el funcionamiento.
 
 ### Troyano
 
-Código malicioso que se oculta dentro de un archivo inofensivo y útil o llamativo para el usuario. Requieren la intervención de sus víctimas para propagarse.
+Código malicioso que **se oculta dentro de un archivo** inofensivo y útil o llamativo para el usuario. Requieren la intervención de sus víctimas para propagarse.
 
 Existen una gran variedad de troyanos, en función de sus acciones y utilidades:
 
@@ -256,17 +260,19 @@ Existen una gran variedad de troyanos, en función de sus acciones y utilidades:
 
 Programa que se instala en el ordenador sin conocimiento del usuario con la finalidad de recopilar información sobre el usuario para enviarla a servidores de Internet gestionados por compañías de publicidad.
 
-## Adware
+### Adware
 
 Software que se esconde en los anuncios de Internet. Tras acceder los equipos y dispositivos, este malware roba la información de las empresas y usuarios.
 
-## Ransomware
+### Ransomware
 
 El **ransomware** es un tipo de malware que toma a sus archivos como rehenes.
 
 Lanzado en septiembre de 2013, **CryptoLocker** se extendió a través de archivos adjuntos de correo electrónico y cifró los archivos del usuario para que no pudieran acceder a ellos.
 
 Luego, los piratas informáticos envian supuestamente una clave de descifrado a cambio de una suma de dinero.
+
+![](img/2019-11-27-08-27-37.png)
 
 # 3.2. Otras amenazas malware
 
@@ -275,6 +281,8 @@ Luego, los piratas informáticos envian supuestamente una clave de descifrado a 
 Es un tipo de fraude ejecutado a través de un **correo electrónico** en el que se solicita la actualización de los datos personales (usualmente vinculados a cuentas u otros instrumentos financieros). 
 
 Aparece un **enlace** para que se haga clic de acceso a una página falsa que tendrá prácticamente la **misma apariencia** de la página de la institución simulada.
+
+![](img/2019-11-27-08-29-05.png)
 
 ## Pharming
 
@@ -331,14 +339,26 @@ Se trata de un conjunto de técnicas utilizadas para intentar acceder a un siste
 - **Inyección de Código:** Añade o borra información en sitios remotos
 - **Escaneo de Puertos**: Averigua los puertos abiertos para atacar.
 - **Denegación de Servicios (DoS):** Satura los recursos de un equipo o de una red para que deje de responder.
-Escuchas de Red: Captura e interpreta el tráfico de una red.
+- **Escuchas de Red**: Captura e interpreta el tráfico de una red.
 - **Spoofing**: Suplanta la identidad del usuario.
 - **Fuerza Bruta:** Probar todas las combinaciones posibles de claves de un sistema.
 - **Elevación de Privilegios:** El atacante se hace root o administrador para controlar más.
 
+Ejemplos: 
+
+- [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
+
+Diagrama de un ataque DDos:
+
+![](img/2019-11-27-08-42-02.png)
+
 # 5. Protección contra malware
 
 ## 5.1. Políticas de seguridad
+
+Es el conjunto de normas y procedimientos que definen las diferentes formas de actuación recomendada con el fin de garantizar un cierto nivel de seguridad.
+
+Es imposible tener un sistema de seguridad totalmente seguro porque además de que no se podría acceder a muchos sitios es muy caro tener el nivel total de seguridad.
 
 ## 5.2. Soluciones antivirus
 
@@ -375,10 +395,10 @@ Algunos síntomas de infección habituales de que un equipo puede estar infectad
 
 ## 5.4. Pasos que debe darse en caso de infección
 
-- Restaurar e sistema a un estado anterior: De esta manera no se pierde información, pero si se elimina el virus.
-- Actualizar la base de datos del antivirus y realizar un análisis del sistema.
-- Arrancar el sistema con un LiveCD o Live USB: permite analizar el equipo con un sistema que no está contaminado y recuperar información.
-- Ejecutar utilidades de desinfección específicas, que eliminas amenazas concretas: esto sirve cuando ya ha sido detectada la amenaza.
+- **Restaurar el sistema** a un estado anterior: De esta manera no se pierde información, pero si se elimina el virus.
+- **Actualizar** la base de datos del **antivirus** y realizar un análisis del sistema.
+- Arrancar el sistema con un **LiveCD o Live USB**: permite analizar el equipo con un sistema que no está contaminado y recuperar información.
+- Ejecutar **utilidades de desinfección específicas**, que eliminas amenazas concretas: esto sirve cuando ya ha sido detectada la amenaza.
 
 # 6. Cifrado de la información
 
@@ -450,7 +470,9 @@ Existen programas para ello, así como para asegurar que los archivos se elimina
 
 ## 10.1. Cortafuegos
 
-Es un hardware o software que controla la información entrante y saliente del equipo, actuando como defensa en caso de amenaza.fr
+![](img/2019-11-27-08-48-41.png)
+
+Es un **hardware o software** que controla la información entrante y saliente del equipo, actuando como defensa en caso de amenaza.
 
 Este se encarga de examinarla y comprueban que superen los criterios de seguridad. estos criterios pueden establecerse en función de las preferencias de cada uno.
 
@@ -460,8 +482,8 @@ Se utiliza en los dispositivos con internet y suelen incluirse con los antivirus
 
 Consiste en conectarse a Internet a través de una red privada, estableciendo una conexión cifrada y así evita que el buscador guarde tus datos.
 
-- VPN de acceso remoto: acceso a una red privada con una red pública. Ejemplos son conexiones desde lugares públicos como hoteles o cafeterías.
-- VPN de sitio a sitio: conectar redes a través de internet, pudiendo comunicarse entre ellas.
+- **VPN de acceso remoto:** acceso a una red privada con una red pública. Ejemplos son conexiones desde lugares públicos como hoteles o cafeterías.
+- **VPN de sitio a sitio:** conectar redes a través de internet, pudiendo comunicarse entre ellas.
 
 ## 10.3. Certificados de servidor web y HTTPS
 
@@ -473,4 +495,40 @@ En los navegadores aparece como un candado verde, y si además el nombre de la w
 
 # 11. Seguridad en comunicaciones inalámbricas
 
-Seguridad en Bluetooth, seguridad en redes wifi.
+## 11.1 Seguridad en Bluetooth
+
+**Bluetooth** es la palabra que define un estándar global de comunicaciones inalámbricas para **redes de área persona**l y que permite la transmisión de voz y de datos entre diferentes equipos por medio de un enlace por radiofrecuencia en entornos de comunicaciones móviles.  
+
+La tecnología Bluetooth tiene un alcance de unos **diez metros**, por lo que se ha integrado en dispositivos de la vida cotidiana que forman parte de las redes personales (PAN) como teléfonos y relojes inteligentes.
+
+Los ciberatacantes que emplean estas comunicaciones suelen utilizar antes que amplían el campo de acción de la señal.  Algunos de los ataques son los siguientes:
+
+- **Bluejacking**. Consiste en el envío de spam al usuario por medio del intercambio con este de una vCard, de una nota o de un contacto.
+- **Bluesnarfing**. Aprovecha las vulnerabilidades del protocolo para sustraer información del dispositivo atacado.
+- **Bluebugging**. Utiliza técnicas de ingeniería social  para que la victima acepte una conexión inicial para infectar el dispositivo con malware de control remoto.
+
+A partir de ahí el usuario dispondrá de acceso remoto al teléfono del usuario y podrá utilizar sus funciones.
+
+La adopción de algunas medidas de seguridad sencillas puede evitar los ataques. Por esta razón, deberían de formar parte de la conducta habitual de un usuario de dispositivos Bluetooh.
+
+Algunas de ellas son:
+
+- Activar bluetooh cuando sea necesario realizar algún tipo de comunicación a través de este medio y desactivarlo cuando se deje de utilizar.
+- Cambiar el **nombre del dispositivo** para que no desvele datos personales y configurarlo para que permanezca oculto.
+- No emparejar ni aceptar conexiones entrantes de **dispositivos desconocidos**, ya que la información podría estar infectada de software malicioso.
+- Verificar periódicamente la lista de **dispositivos de confianza** para eliminar los que no se utilizan habitualmente.  
+
+## 11.2 Seguridad en redes wifi
+
+Las redes wifi utilizan una tecnología  inalámbrica  que realiza la conexión entre dispositivos situados en un área relativamente pequeña, como una habitación, una oficina, una casa o un edificio, a través de ondas electromagnéticas.
+
+Algunas de las medidas de seguridad basicas que se pueden configurar en el router para mantener una red wifi segura son las siguientes:
+
+- **Personalizar la contraseña de acceso:** las contraseñas por defecto de algunos routers suelen ser muy vulnerables o se pueden averiguar rápidamente en Internet.
+- **Cambiar el SSID:** el nombre de la red es el identificador con el que se etiqueta la red inalámbrica para que cada usuario pueda localizarla.
+- **Revisar el cifrado:** la señal inalámbrica puede ser interceptada más fácilmente por una red cableada, por lo que es necesario utilizar estándares de cifrado como WPA2.
+- **Desactivar el acceso por WPS:** el estándar WPS facilita la configuración de una red segura con WPA2 a sus usuarios.
+- **Filtrar las MAC:** las direcciones MAC son establecidas por el fabricante y únicas apra cada dispositivo de la red.
+- **Actualizar el firmware:** el fimware es el software que controla los circuitos de los dispositivos electrónicos.
+- **Comprobar el historial de actividad:** la actividad del router puede desvelar información sobre posibles intrusiones, ya que muestra los datos de los equipos conectados, los horarios, la duración de la sesión, etc...
+- **Utilizar software de auditoría:** en el mercado existen herramientas diseñadas para evaluar la seguridad de una red y detectar sus posibles vulnerabilidades. Una de las mas populares es Nmap.
